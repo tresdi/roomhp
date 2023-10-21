@@ -1,0 +1,19 @@
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/dist/css",
+            "savePathReplacementPairs": null
+        },
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/dist/css",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.forceBaseDirectory": "/src/scss",
+    "liveSassCompile.settings.rootIsWorkspace": true,
+    "liveSassCompile.settings.showOutputWindowOn": "Error"
+}

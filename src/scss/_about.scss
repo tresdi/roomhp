@@ -1,0 +1,46 @@
+#aboutSection {
+    display: block;
+}
+
+#aboutSection > figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#aboutSection > article {
+    display: flex;
+    align-items: center;
+}
+
+#aboutSection h2 {
+    text-transform: uppercase;
+    font-family: 'League Spartan 700', sans-serif;
+    font-size: $about_hero_title;
+    color: $black;
+
+    ~ * {
+        color: $dark_gray;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    #aboutSection {
+        display: flex;
+        justify-self: center;
+        width: 100%;
+        height: auto;
+    }
+    #aboutSection > * {
+        flex: 1 1 auto;
+    }
+    #aboutSection > figure img {
+        max-width: 100%;
+        height: 100%;
+        width: 100%;
+    }
+    #aboutSection > article {
+        width: $about_article_lg_width;
+    }
+}
+

@@ -1,0 +1,21 @@
+html {
+    font-size: $font_size_base;
+}
+
+#def_wrapper {
+    max-width: $content-boundary;
+    margin: auto;
+}
+
+body {
+    font-family: 'League Spartan 500', sans-serif;
+}
+
+.attribution {
+    font-size: $font_size_base;
+    text-align: center;
+}
+
+.attribution a {
+    color: crimson;
+}

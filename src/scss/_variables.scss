@@ -1,0 +1,49 @@
+// Colors
+$dark_gray: hsl(0, 0%, 63%);
+$black: hsl(0, 0%, 0%);
+$white: hsl(0, 0%, 100%);
+$very_dark_gray: hsl(0, 0%, 27%);
+
+// Const
+$toggler-icon-size: 2rem;
+$content-boundary: 1440px;
+$navbar_header_vpadding: 2rem;
+$navbar_header_vpadding_lg: 4rem;
+$navbar_collapse_transition_duration: 400ms;
+$navbar_menu_gap: 2rem;
+$navlink_hover_styling_shape_thickness: 2px;
+$navlink_hover_transition_duration: 200ms;
+$navbar_padding_md: 0 2rem;
+$navbar_padding_lg: 0 6rem;
+$overlay_opacity: .7;
+
+$hero_text_padding: 2rem 6.5rem;
+$hero_title_size: 3rem;
+$hero_title_line_height: .9;
+
+$shop_btn_letter_spacing: .8rem;
+$carousel_btn_height: 6rem;
+$carousel_btn_width: 6rem;
+$carousel_transition_duration: 1s;
+
+$about_article_lg_width: 50%;
+$about_hero_title: 2rem;
+
+// Font
+$font_size_base: 12px;
+
+// Typography
+@font-face {
+    font-family: 'League Spartan 500';
+    src: url(/dist/assets/fonts/static/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'League Spartan 600';
+    src: url(/dist/assets/fonts/static/LeagueSpartan-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'League Spartan 700';
+    src: url(/dist/assets/fonts/static/LeagueSpartan-SemiBold.ttf);
+}

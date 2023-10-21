@@ -1,0 +1,165 @@
+.jumbotron {
+    background-color: transparent;
+    margin-bottom: 0;
+    padding: $hero_text_padding;
+
+    >h2 {
+        font-size: $hero_title_size;
+        font-family: 'League Spartan 700', sans-serif;
+        line-height: $hero_title_line_height;
+        margin-bottom: 0.5em;
+    }
+
+    >h2~* {
+        font-family: 'League Spartan 600', sans-serif;
+        color: $dark_gray;
+    }
+}
+
+%icon {
+    margin-left: .25rem;
+    margin-right: .25rem;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background: 50%/100% 100% no-repeat;
+}
+
+.shop-btn {
+    @extend .btn;
+    @extend .btn-link;
+
+    span {
+        text-transform: uppercase;
+        color: $black;
+        transition: $btn-transition; // Bootstrap 4
+        letter-spacing: $shop_btn_letter_spacing;
+    }
+    &:hover {
+        text-decoration: none;
+    }
+    &:hover span {
+        color: $dark_gray !important;
+    }
+
+    .icon-arrow {
+        display: inline-block;
+        height: 1rem;
+        width: 3rem;
+        @extend %icon;
+        background-image: url(/dist/assets/images/icon-arrow.svg);
+    }
+}
+
+%carousel-control-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    background: 50%/100% no-repeat;
+    background-size: 1rem;
+}
+
+.prev-btn,
+.next-btn {
+    @extend .btn;
+    display: block;
+    padding: 0;
+    height: $carousel_btn_height;
+    width: $carousel_btn_width;
+}
+
+.prev-icon {
+    background-image: url(/dist/assets/images/icon-angle-left.svg);
+    @extend %carousel-control-icon;
+}
+
+.next-icon {
+    background-image: url(/dist/assets/images/icon-angle-right.svg);
+    @extend %carousel-control-icon;
+}
+
+[role=navigation] .hero {
+    display: flex;
+    flex-direction: column;
+
+    @include media-breakpoint-up(md) {
+        flex-direction: row;
+
+        #heroFigureCarousel {
+            flex: 1 0 60%;
+        }
+    }
+}
+
+.carousel-controls {
+    @extend .btn-group;
+    position: absolute;
+}
+
+.carousel-controls>button {
+    position: static;
+    left: initial;
+    right: initial;
+    border-radius: 0;
+    background-color: $black;
+    transition: background-color 300ms ease;
+
+    &:hover {
+        background-color: $very_dark_gray;
+    }
+}
+
+#heroFigureCarousel {
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .carousel-item {
+        height: inherit;
+    }
+
+    .carousel-item figure {
+        position: relative;
+        height: inherit;
+
+        img {
+            min-height: 100%;
+        }
+    }
+
+    .carousel-controls {
+        bottom: 0;
+        right: 0;
+    }
+}
+
+#heroTextCarousel {
+    display: flex;
+    align-items: center;
+
+    .carousel-item {
+        background-color: $white;
+        height: 100%;
+        transition-duration: $carousel_transition_duration;
+        transition-property: opacity;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+    }
+
+    .carousel-controls {
+        display: none;
+    }
+
+    @include media-breakpoint-up(md) {
+        .carousel-controls {
+            display: inline-flex;
+            left: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        .carousel-item {
+            padding-bottom: $carousel_btn_height;
+        }
+    }
+}

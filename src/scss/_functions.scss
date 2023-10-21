@@ -1,0 +1,15 @@
+@function remToPx($basePx: 12px, $value) {
+    @return (($basePx/1px) * $value);
+}
+
+@function emToPx($basePx, $value) {
+    @return (($basePx/1px) * $value);
+}
+
+@function pxToRem($basePx: 12px, $value) {
+    @return (($value / $basePx) * 1rem);
+}
+
+@function pxToEm($basePx, $value) {
+    @return (($value / $basePx) * 1em);
+}
