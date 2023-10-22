@@ -9440,15 +9440,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 @font-face {
   font-family: "League Spartan 500";
-  src: url(/dist/assets/fonts/static/LeagueSpartan-Regular.ttf);
+  src: url(../assets/fonts/static/LeagueSpartan-Regular.ttf);
 }
 @font-face {
   font-family: "League Spartan 600";
-  src: url(/dist/assets/fonts/static/LeagueSpartan-Medium.ttf);
+  src: url(../assets/fonts/static/LeagueSpartan-Medium.ttf);
 }
 @font-face {
   font-family: "League Spartan 700";
-  src: url(/dist/assets/fonts/static/LeagueSpartan-SemiBold.ttf);
+  src: url(../assets/fonts/static/LeagueSpartan-SemiBold.ttf);
 }
 html {
   font-size: 12px;
@@ -9498,14 +9498,14 @@ header[role=navigation] {
   font-size: 1rem;
 }
 .navbar.navbar-expand-md .navbar-header .navbar-toggler.collapsed .navbar-toggler-icon {
-  background-image: url(/dist/assets/images/icon-hamburger.svg);
+  background-image: url(../assets/images/icon-hamburger.svg);
 }
 
 .navbar.navbar-expand-md .navbar-header .navbar-toggler {
   font-size: 1rem;
 }
 .navbar.navbar-expand-md .navbar-header .navbar-toggler .navbar-toggler-icon {
-  background-image: url(/dist/assets/images/icon-close.svg);
+  background-image: url(../assets/images/icon-close.svg);
 }
 
 #navbarWrapper {
@@ -9717,7 +9717,7 @@ header[role=navigation] {
   display: inline-block;
   height: 1rem;
   width: 3rem;
-  background-image: url(/dist/assets/images/icon-arrow.svg);
+  background-image: url(../assets/images/icon-arrow.svg);
 }
 
 .next-icon, .prev-icon {
@@ -9738,11 +9738,11 @@ header[role=navigation] {
 }
 
 .prev-icon {
-  background-image: url(/dist/assets/images/icon-angle-left.svg);
+  background-image: url(../assets/images/icon-angle-left.svg);
 }
 
 .next-icon {
-  background-image: url(/dist/assets/images/icon-angle-right.svg);
+  background-image: url(../assets/images/icon-angle-right.svg);
 }
 
 [role=navigation] .hero {
