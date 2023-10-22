@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Responsive Room Homepage using Bootstrap 4 and SCSS](https://www.frontendmentor.io/solutions/responsive-room-homepage-using-bootstrap-4-and-scss-SdD1f8x7o2)
 - Live Site URL: [https://tresdi.github.io/roomhp/](https://tresdi.github.io/roomhp/)
 
 ## My process
