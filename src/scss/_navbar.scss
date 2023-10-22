@@ -25,7 +25,7 @@ header[role='navigation'] {
     @extend %TOGGLER;
 
     .navbar-toggler-icon {
-        background-image: url(/dist/assets/images/icon-hamburger.svg);
+        background-image: url(../../dist/assets/images/icon-hamburger.svg);
     }
 }
 
@@ -34,7 +34,7 @@ header[role='navigation'] {
     @extend %TOGGLER;
 
     .navbar-toggler-icon {
-        background-image: url(/dist/assets/images/icon-close.svg);
+        background-image: url(../../dist/assets/images/icon-close.svg);
     }
 }
 

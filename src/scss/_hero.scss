@@ -46,7 +46,7 @@
         height: 1rem;
         width: 3rem;
         @extend %icon;
-        background-image: url(/dist/assets/images/icon-arrow.svg);
+        background-image: url(../../dist/assets/images/icon-arrow.svg);
     }
 }
 
@@ -69,12 +69,12 @@
 }
 
 .prev-icon {
-    background-image: url(/dist/assets/images/icon-angle-left.svg);
+    background-image: url(../../dist/assets/images/icon-angle-left.svg);
     @extend %carousel-control-icon;
 }
 
 .next-icon {
-    background-image: url(/dist/assets/images/icon-angle-right.svg);
+    background-image: url(../../dist/assets/images/icon-angle-right.svg);
     @extend %carousel-control-icon;
 }
 
