@@ -13,7 +13,6 @@
             "savePathReplacementPairs": null
         }
     ],
-    "liveSassCompile.settings.forceBaseDirectory": "/src/scss",
     "liveSassCompile.settings.rootIsWorkspace": true,
     "liveSassCompile.settings.showOutputWindowOn": "Error"
 }
