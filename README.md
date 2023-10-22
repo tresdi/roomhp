@@ -13,7 +13,6 @@ This is a solution to the [Room homepage challenge on Frontend Mentor](https://w
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -28,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [tresdi.roomhp.github.io](tresdi.roomhp.github.io)
+- Live Site URL: [https://tresdi.github.io/roomhp/](https://tresdi.github.io/roomhp/)
 
 ## My process
 
